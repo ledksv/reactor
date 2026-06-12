@@ -16,14 +16,7 @@ PORT     STATE SERVICE VERSION
 3000/tcp open  http    Next.js web application
 ```
 
-Single web application on port 3000. Response header confirms the framework:
-
-```bash
-curl -sI http://<TARGET_IP>:3000/
-# X-Powered-By: Next.js
-```
-
-Full version identified as **Next.js 15.0.3** via JS chunk inspection.
+Single web application on port 3000.
 
 ## // remaining sections locked
 
